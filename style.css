@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: 800px;
+    width: 800px;
+    
+}
+
+.cell {
+    box-sizing: border-box;
+    border: 1px solid black;
+    transition: background-color .5s;
+}
+
+.cell:hover {
+    background-color: black;
+}
